@@ -1,18 +1,15 @@
-import React from "react";
-// import bg_dog from "../assets/img/bg-dog.png";
-import Brands from '../components/Brands/Brands';
-import Footer from '../components/Footer/Footer';
-import Home from "../components/Home/Home";
-// import './Home.css';
+
+
+import React from 'react';
+import bg_dog from '../../assets/img/bg-dog.png';
+import './Home.css';
 
 
 
-const Main = () => {
-
+const Home = () => {
   return (
-    <div className="container-fluid">
-      <Home />
-      {/* <div  className="home w-screen h-full flex justify-center ">
+   
+    <div  className="home w-screen h-full flex justify-center ">
         <div className=" w-5/6 h-full grid grid-cols-2 items-center bg-themeOrange">
           <div className="flex-col mt-20 ml-20 ">
 
@@ -31,13 +28,9 @@ const Main = () => {
             <img src={bg_dog} alt="background dog" className="w-1/2 mt-20 mr-20"/>
           </div>
         </div>
-      </div> */}
-        
-      
-      <Brands />
-      <Footer />
-    </div>
-  );
-};
+     </div>
+    
+  )
+}
 
-export default Main;
+export default Home

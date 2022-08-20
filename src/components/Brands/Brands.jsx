@@ -56,7 +56,7 @@ const brands = [
 function Brands() {
   return (
     <div>
-        <h2 className ='mt-3 text-4xl font-dynapuff text-center'>BRANDS WE CARRY</h2>
+        <h2 className ='mt-3 text-3xl font-dynapuff text-center'>BRANDS WE CARRY</h2>
         <div className= "flex flex-row">
             {
                 brands.map(({title, image, id}) => (
