@@ -55,9 +55,10 @@ const brands = [
 
 function Brands() {
   return (
-    <div>
-        <h2 className ='mt-3 text-3xl font-dynapuff text-center'>BRANDS WE CARRY</h2>
-        <div className= "flex flex-row">
+    <div className = 'flex flex-col '>
+        <h2 className ='mt-3 text-2xl md:text-4xl font-dynapuff text-center'>BRANDS WE CARRY</h2>
+
+        <div className= "grid grid-cols-2 md:grid-cols-4 content-between mx-auto px-auto">
             {
                 brands.map(({title, image, id}) => (
                     <div className ="font-dynapuff w-60 h-60" key={id}>
