@@ -4,13 +4,9 @@
     background-image: url(../../assets/img/pet-background.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
-.wave{
-    background-image: url(../../assets/img/pet-background.jpg);
-
-}
 
 .button{
     font-size: large;
